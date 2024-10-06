@@ -121,12 +121,15 @@
 
       equation.addEventListener('click', () => {
         latexCode.style.display = latexCode.style.display === 'none' ? 'block' : 'none';
-        
-       const range = document.createRange();
+
+      // Latex is selected by default when equation is clicked
+      /*
+      const range = document.createRange();
       range.selectNodeContents(latexCode);
       const selection = window.getSelection();
       selection.removeAllRanges();
       selection.addRange(range);
+      */
 
         if (latexCode.style.display === 'block' && !latexCode.querySelector('.done-button')) {
           const doneButton = document.createElement('div');
