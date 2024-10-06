@@ -1,2 +1,2 @@
 # katex-show
-CSS and JS to imitate Notion function (show latex when equation block is clicked)
+CSS and JS to show latex when an equation block is clicked (like in Notion)
